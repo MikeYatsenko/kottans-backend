@@ -1,7 +1,7 @@
 # Mike Yatsenko, and here is my kottans-backend
 
 ## Sunday, the 8th of September, 2019
-Task 1. Git and GitHub - done
+Task 1. Git Basics - done
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/git.png)
 ## Sunday, the 15 of September, 2019
 Task 2. Unix Shell - done
