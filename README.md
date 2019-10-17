@@ -15,3 +15,6 @@ Working with GitHub and Git was new experience for me. Since I worked on my proj
 Some things were shocking, <i> for example </i>: ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Git_Collaboration/4.png)
 But in any case, it is <b>very</b> interesting.
 So I will continue, thanks!
+## Task 4. Python Basic-1 - done
+[My profile on HackerRank](https://www.hackerrank.com/yatsbb)
+
