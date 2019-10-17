@@ -17,4 +17,5 @@ But in any case, it is <b>very</b> interesting.
 So I will continue, thanks!
 ## Task 4. Python Basic-1 - done
 [My profile on HackerRank](https://www.hackerrank.com/yatsbb)
-
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic/1.png)
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic1/2.png)
