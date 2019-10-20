@@ -47,4 +47,5 @@ Questions:
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 ```
  `Heap - 556529c01000-556529c22000`, `Stack - 7ffe39224000-7ffe39246000`, `MMS - 556528d88000-556528d8a000`.
+ 
 **Regarding the topic**: The first article was very difficult for me. I used additional articles and videos to understand how the memory management tool works. The task was quite simple.
