@@ -20,8 +20,10 @@ So I will continue, thanks!
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic1/1.png)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic1/2.png)
 ## Task 5. Memory Management — done
-
-
+Questions:
+1. Stack Overflow and after it segmentation fault wiil be recieved.
+2. Will be created an anonymous memory mapping.
+3. 
 
 ```
 556528b6a000-556528b86000 r-xp 00000000 103:01 2621474                   /bin/dash
