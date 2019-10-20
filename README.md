@@ -1,21 +1,46 @@
 # Mike Yatsenko, and here is my kottans-backend
 
-## Task 1. Git Basics - done
+## Task 1. Git Basics —  done
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Git_Intro/git.png)
-## Task 2. Unix Shell - done
+## Task 2. Unix Shell —  done
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Unix_Shell/1.png)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Unix_Shell/2.png)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Unix_Shell/3.png)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Unix_Shell/4.png)
 Speaking about Point 2 (http://linuxcommand.org), it’s quite difficult to read everything, but for me it was very convenient to use the format of tables with expressions, directories and wildcards and their explanations during reading.
-## Task 3. Git Collaboration - done
+## Task 3. Git Collaboration —  done
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Git_Collaboration/git.png)
 <strong> And what about my feelings...</strong> 
 Working with GitHub and Git was new experience for me. Since I worked on my projects almost by myself. Incredibly convenient thing, and most importantly, I felt the optimization of even small details of this tool . The course is interesting , I like the moment that you need to work with the repository by yourself.
 Some things were shocking, <i> for example </i>: ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Git_Collaboration/4.png)
 But in any case, it is <b>very</b> interesting.
 So I will continue, thanks!
-## Task 4. Python Basic-1 - done
+## Task 4. Python Basic-1 —  done
 [My profile on HackerRank](https://www.hackerrank.com/yatsbb)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic1/1.png)
 ![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Python_basic1/2.png)
+## Task 5. Memory Management — done
+
+
+
+```
+556528b6a000-556528b86000 r-xp 00000000 103:01 2621474                   /bin/dash
+556528d85000-556528d87000 r--p 0001b000 103:01 2621474                   /bin/dash
+556528d87000-556528d88000 rw-p 0001d000 103:01 2621474                   /bin/dash
+556528d88000-556528d8a000 rw-p 00000000 00:00 0
+556529c01000-556529c22000 rw-p 00000000 00:00 0                          [heap]
+7f77d1ded000-7f77d1fd4000 r-xp 00000000 103:01 3674829                   /lib/x86_64-linux-gnu/libc-2.27.so
+7f77d1fd4000-7f77d21d4000 ---p 001e7000 103:01 3674829                   /lib/x86_64-linux-gnu/libc-2.27.so
+7f77d21d4000-7f77d21d8000 r--p 001e7000 103:01 3674829                   /lib/x86_64-linux-gnu/libc-2.27.so
+7f77d21d8000-7f77d21da000 rw-p 001eb000 103:01 3674829                   /lib/x86_64-linux-gnu/libc-2.27.so
+7f77d21da000-7f77d21de000 rw-p 00000000 00:00 0
+7f77d21de000-7f77d2205000 r-xp 00000000 103:01 3674801                   /lib/x86_64-linux-gnu/ld-2.27.so
+7f77d23e6000-7f77d23e8000 rw-p 00000000 00:00 0
+7f77d2405000-7f77d2406000 r--p 00027000 103:01 3674801                   /lib/x86_64-linux-gnu/ld-2.27.so
+7f77d2406000-7f77d2407000 rw-p 00028000 103:01 3674801                   /lib/x86_64-linux-gnu/ld-2.27.so
+7f77d2407000-7f77d2408000 rw-p 00000000 00:00 0
+7ffe39224000-7ffe39246000 rw-p 00000000 00:00 0                          [stack]
+7ffe393ea000-7ffe393ed000 r--p 00000000 00:00 0                          [vvar]
+7ffe393ed000-7ffe393ee000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+```
