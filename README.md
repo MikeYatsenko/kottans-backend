@@ -23,7 +23,7 @@ So I will continue, thanks!
 Questions:
 1. Stack Overflow and after it segmentation fault wiil be recieved.
 2. Will be created an anonymous memory mapping.
-3. 
+3. Text memory segment is read only and stores data as a string literals. Data memory is read and write and saving the contents for static variables initialized in source code.
 
 ```
 556528b6a000-556528b86000 r-xp 00000000 103:01 2621474                   /bin/dash
@@ -47,3 +47,4 @@ Questions:
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 ```
  `Heap - 556529c01000-556529c22000`, `Stack - 7ffe39224000-7ffe39246000`, `MMS - 556528d88000-556528d8a000`.
+**Regarding the topic**: The first article was very difficult for me. I used additional articles and videos to understand how the memory management tool works. The task was quite simple.
