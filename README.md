@@ -44,3 +44,4 @@ So I will continue, thanks!
 7ffe393ed000-7ffe393ee000 r-xp 00000000 00:00 0                          [vdso]
 ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
 ```
+ `Heap - 556529c01000-556529c22000`, `Stack - 7ffe39224000-7ffe39246000`, `MMS - 556528d88000-556528d8a000`.
