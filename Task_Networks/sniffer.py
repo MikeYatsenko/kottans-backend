@@ -1,5 +1,5 @@
-import socket, argparse
-import sys
+import socket, argparse, sys
+
 def parserfun():
     parser = argparse.ArgumentParser(description="TCP scanner search ports")
     parser.add_argument("--host", help=" type host, example: www.google.com",type=str, metavar="host", required=True)
@@ -8,9 +8,8 @@ def parserfun():
 
 args = parserfun().parse_args()
 
-def port_scan(host, start_port, end_port):
-    print("Searching")
-    op = []
+def scanner(host, start_port, end_port):
+    buffer = []
     for port in range(start_port, end_port + 1):
         connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         connection.settimeout(0.3)
@@ -22,10 +21,10 @@ def port_scan(host, start_port, end_port):
             sys.stdout.flush()
         connection.close()
     print("\n")
-    return op
+    return buffer
 
 try:
- ports = port_scan(args.host, args.ports[0], args.ports[1])
+ ports = scanner(args.host, args.ports[0], args.ports[1])
 except (KeyboardInterrupt, socket.gaierror, socket.error) as error:
   print(error)
   sys.exit()
