@@ -49,3 +49,11 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
  `Heap - 556529c01000-556529c22000`, `Stack - 7ffe39224000-7ffe39246000`, `MMS - 556528d88000-556528d8a000`.
  
 **Regarding the topic**: The first article was very difficult for me. I used additional articles and videos to understand how the memory management tool works. The task was quite simple.
+
+## Task 6. TCP.UDP.Network — done
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Network/4.png)
+<b>Internet101</b>: Very nice course in terms of presentation and animation, it was nice to watch, especially at the weekend.
+<b>howdns.works</b>: Perhaps the most interesting material that I saw on this topic.
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Network/5.png)
+<b>Networking for Web Developers</b>: I worked very little with Linux, so this course, in general, was difficult, but useful
+ 
