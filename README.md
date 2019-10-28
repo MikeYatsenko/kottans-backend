@@ -51,9 +51,9 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 **Regarding the topic**: The first article was very difficult for me. I used additional articles and videos to understand how the memory management tool works. The task was quite simple.
 
 ## Task 6. TCP.UDP.Network — done
-![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Network/4.png)
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Networks/4.png)
 <b>Internet101</b>: Very nice course in terms of presentation and animation, it was nice to watch, especially at the weekend.
 <b>howdns.works</b>: Perhaps the most interesting material that I saw on this topic.
-![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Network/5.png)
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Networks/5.png)
 <b>Networking for Web Developers</b>: I worked very little with Linux, so this course, in general, was difficult, but useful
  
