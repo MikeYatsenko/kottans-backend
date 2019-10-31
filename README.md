@@ -62,4 +62,12 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 <b>Networking for Web Developers</b>: I worked very little with Linux, so this course, in general, was difficult, but useful.
 
 TCP sniffer: [here](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Networks/sniffer.py)
- 
+
+## Task 7. Http & Https — done
+- curl https://api.github.com/users/MikeYatsenko
+- curl-i https://api.github.com/users/MikeYatsenko
+- curl --user "MikeYatsenko:BLABLABLA" https://api.github.com/gists/starred
+- curl --user "MikeYatsenko:*********" https://api.github.com/gists/starred
+- curl --user "Siu" https://api.github.com/gists/starred
+- curl -i https://api.github.com/orgs/kottans/repos
+- curl -H 'Authorization:*********' https://api.github.com/repos/Siusarna/kottans-backend/issues -d '{"title": "Test Issue"}' 
