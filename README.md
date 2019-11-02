@@ -93,9 +93,9 @@ The public key is used to encrypt the message text in characters, while the priv
 
 <b>3.</b>  _An application for pet clinic._
 
--POST, add new pet, response will be status 201.
--GET, search pet by name, response will be status 200.
--PUT, change name of an existing pet, response will be status 200.
--PUT, add new info about pet's health, response will be status 200.
--PUT, assign a pet to a particular doctor, response will be status 200.
--PUT, register an appointment for a pet, response will be status 200.
+- POST, add new pet, response will be status 201.
+- GET, search pet by name, response will be status 200.
+- PUT, change name of an existing pet, response will be status 200.
+- PUT, add new info about pet's health, response will be status 200.
+- PUT, assign a pet to a particular doctor, response will be status 200.
+- PUT, register an appointment for a pet, response will be status 200.
