@@ -91,11 +91,11 @@ TLS is a hybrid cryptographic system. This means that it uses several cryptograp
 
 The public key is used to encrypt the message text in characters, while the private key is used to decrypt and retrieve the source text. Since the message has been encrypted using the public key, it can only be decrypted with the corresponding private key. None of the keys can perform both functions. The public key is published in the public domain without risking exposing the system to threats, but the private key should not reach anyone who does not have the right to decrypt data.
 
-b>3.</b>  _An application for pet clinic._
+<b>3.</b>  _An application for pet clinic._
 
-POST, add new pet, response will be status 201.
-GET, search pet by name, response will be status 200.
-PUT, change name of an existing pet, response will be status 200.
-PUT, add new info about pet's health, response will be status 200.
-PUT, assign a pet to a particular doctor, response will be status 200.
-PUT, register an appointment for a pet, response will be status 200.
+-POST, add new pet, response will be status 201.
+-GET, search pet by name, response will be status 200.
+-PUT, change name of an existing pet, response will be status 200.
+-PUT, add new info about pet's health, response will be status 200.
+-PUT, assign a pet to a particular doctor, response will be status 200.
+-PUT, register an appointment for a pet, response will be status 200.
