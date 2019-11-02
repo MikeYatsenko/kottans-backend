@@ -76,7 +76,7 @@ Questions:
 
 <b>1.</b> _Name at least three possible negative consequences of not using HTTPS._
 
-HTTPS is a protocol that involves the use of an SSL certificate, which creates a secure encrypted connection between the web server and the web browser.
+HTTPS is a protocol that involves the use of a certificate, which creates a secure encrypted connection between the web server and the web browser.
 
 1) Data is not encrypted, and it can be intercepted by third parties to gather data being passed between the two systems.
 2) You can lose data integrity. SSL and TLS provide data integrity by calculating a message digest.
