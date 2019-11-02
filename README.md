@@ -68,6 +68,14 @@ TCP sniffer: [here](https://github.com/MikeYatsenko/kottans-backend/blob/master/
 - curl-i https://api.github.com/users/MikeYatsenko
 - curl --user "MikeYatsenko:BLABLABLA" https://api.github.com/gists/starred
 - curl --user "MikeYatsenko:*********" https://api.github.com/gists/starred
-- curl --user "Siu" https://api.github.com/gists/starred
+- curl --user "MikeYatsenko" https://api.github.com/gists/starred
 - curl -i https://api.github.com/orgs/kottans/repos
-- curl -H 'Authorization:*********' https://api.github.com/repos/Siusarna/kottans-backend/issues -d '{"title": "Test Issue"}' 
+- curl -H 'Authorization:*********' https://api.github.com/repos/MikeYatsenko/kottans-backend/issues -d '{"title": "Test Issue"}' 
+
+Questions:
+<b>1.</b>Name at least three possible negative consequences of not using https
+HHTPS is a protocol that involves the use of an SSL certificate, which creates a secure encrypted connection between the web server and the web browser.
+    1) Data is not encrypted, and it can be intercepted by third parties to gather data being passed between the two systems.
+    2) You can lose data integrity. SSL and TLS provide data integrity by calculating a message digest.
+    3) Encrypting a communication is good but it is not enough, you need to be confident about  that you are talking to the  right person or the right server. So you need to use identification provided by SSL.
+
