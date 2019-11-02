@@ -80,7 +80,7 @@ HTTPS is a protocol that involves the use of a certificate, which creates a secu
 
 1) Data is not encrypted, and it can be intercepted by third parties to gather data being passed between the two systems.
 2) You can lose data integrity. SSL and TLS provide data integrity by calculating a message digest.
-3) Encrypting a communication is good but it is not enough, you need to be confident about  that you are talking to the  right person or the right server. So you need to use identification provided by SSL.
+3) Encrypting a communication is good but it is not enough, you need to be confident about  that you are talking to the  right person or the right server. So you need to use identification provided by certificate.
 
 <b>2.</b> _Explain the main idea behind public key cryptography in few sentences._
 
