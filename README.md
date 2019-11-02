@@ -63,7 +63,7 @@ ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsysca
 
 TCP sniffer: [here](https://github.com/MikeYatsenko/kottans-backend/blob/master/Task_Networks/sniffer.py)
 
-## Task 7. Http & Https — done
+## Task 7. HTTP & HTTPS — done
 - curl https://api.github.com/users/MikeYatsenko
 - curl-i https://api.github.com/users/MikeYatsenko
 - curl --user "MikeYatsenko:BLABLABLA" https://api.github.com/gists/starred
@@ -74,11 +74,19 @@ TCP sniffer: [here](https://github.com/MikeYatsenko/kottans-backend/blob/master/
 
 Questions:
 
-<b>1.</b>Name at least three possible negative consequences of not using https.
+<b>1.</b>_Name at least three possible negative consequences of not using HTTPS._
 
-HHTPS is a protocol that involves the use of an SSL certificate, which creates a secure encrypted connection between the web server and the web browser.
+HTTPS is a protocol that involves the use of an SSL certificate, which creates a secure encrypted connection between the web server and the web browser.
 
 1) Data is not encrypted, and it can be intercepted by third parties to gather data being passed between the two systems.
 2) You can lose data integrity. SSL and TLS provide data integrity by calculating a message digest.
 3) Encrypting a communication is good but it is not enough, you need to be confident about  that you are talking to the  right person or the right server. So you need to use identification provided by SSL.
 
+<b>2.</b>_Explain the main idea behind public key cryptography in few sentences._
+
+TLS is a hybrid cryptographic system. This means that it uses several cryptographic approaches, which we will consider further:
+
+1) Asymmetric encryption (a public-key cryptosystem) for generating a shared secret key and authentication (that is, verifying that you are the one who claims to be).
+2) Symmetric encryption using a secret key for further encryption of requests and responses.
+
+The public key is used to encrypt the message text in characters, while the private key is used to decrypt and retrieve the source text. Since the message has been encrypted using the public key, it can only be decrypted with the corresponding private key. None of the keys can perform both functions. The public key is published in the public domain without risking exposing the system to threats, but the private key should not reach anyone who does not have the right to decrypt data.
