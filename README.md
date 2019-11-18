@@ -99,3 +99,14 @@ The public key is used to encrypt the message text in characters, while the priv
 - PUT, add new info about pet's health, response will be status 200.
 - PUT, assign a pet to a particular doctor, response will be status 200.
 - PUT, register an appointment for a pet, response will be status 200.
+## Task 8. Design Patterns — done
+What I, as a beginner, understood about design patterns: it's a general concept for solving a particular problem that will need to be further adjusted to the needs of your code.
+The pattern is usually described through:
+- class structures that make up the solution.
+- an example in programming language.
+- implementation features in various contexts.
+- links to other patterns.
+
+For Python, as for a highly developed language, a large number of patterns are compiled, presented in one of the articles in the assignment.
+
+The course, which was presented in the task, initially defines common approaches to software design using a browser as an example. After this, teacher explaine us about the UCL which can be used for object-oriented analysis and design and OCL (declarative language describing rules applying to UCL). The course further explains the approaches to using patterns in OOP and and decisions about choosing the necessary patterns.
