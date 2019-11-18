@@ -110,3 +110,4 @@ The pattern is usually described through:
 For Python, as for a highly developed language, a large number of patterns are compiled, presented in one of the articles in the assignment.
 
 The course, which was presented in the task, initially defines common approaches to software design using a browser as an example. After this, teacher explaine us about the UCL which can be used for object-oriented analysis and design and OCL (declarative language describing rules applying to UCL). The course further explains the approaches to using patterns in OOP and and decisions about choosing the necessary patterns.
+![Image alt](https://github.com/MikeYatsenko/kottans-backend/blob/master/8.png)
